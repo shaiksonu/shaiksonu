@@ -25,6 +25,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private UserDetailsService userDetailService;
 	
+	
 	@Bean
 	public AuthenticationProvider authProvider() 
 	{
